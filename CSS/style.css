@@ -1,24 +1,37 @@
-.inline-block{
-display: inline-block;
-vertical-align: top;
-}
-
-.logo{
+.Logo{
+	display: inline;
 	width: 5%;
 	padding: 1%;
 	text-align: center;
 	}
 
 .nav {
-	width: 73%;
+	margin: 0 auto;
+	width: 100%;
 	padding: 1%;
 	background-color: #F5F3F1;
+	border: 1px solid black;
 	}
 
-.ul{
-	width: 50%;
-	margin-left: auto;	
-	list-style-type: none;
+.nav img {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.navLinks {
+	 display: inline-block;
+	 border: 1px solid black;
+	 width: 60%;
+}
+
+.navLinks ul li {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  display: inline;
+  float: right;
+  
 }
 
 .heroImg{
